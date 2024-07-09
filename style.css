@@ -1,0 +1,120 @@
+body{
+ margin: 0;   
+ padding: 0;
+ background-color: rgb(211, 199, 202);
+}
+.lg{
+    display: flex;
+    background-color:rgb(127, 44, 104);
+    height: 59px;
+    width: 1500px;
+}
+.lg1{
+    background-color: aliceblue;
+    border-radius: 49%;
+    border: 1px solid white;
+    margin-left: 40px;
+    margin-top: 10px;
+    height: 75px;
+}
+.su{
+    background-color: rgb(126, 28, 99);
+    color: white;
+    margin-top: 15px;
+    margin-left: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+}
+.box1{
+    box-shadow: 0 6px 6px rgb(197, 174, 178) ;
+    margin-top: 100px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    margin-left: 185px;
+}
+.logobx{
+    margin-top: 20px;
+ width: 22%;
+}
+.su1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.cams{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: darkgray;
+}
+.note{
+    color: red;
+    margin-inline: 102px;
+    font-size: 18px;
+    margin-top: -20px;
+    text-align: left;
+    font-size: medium;
+    
+}
+.user{
+    padding: 4px;
+    border-radius: 5px;
+    width: 280px;
+    height: 26px;
+    border-width: 1px;
+    border: 1px solid;
+    background-color: #d2ffff;
+}
+.passward{
+    padding: 4px;
+    width: 280px;
+    height: 26px;
+    margin: 7px;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #d2ffff;
+    border: 1px solid black;
+}
+.log{
+    background-color:rgb(126, 28, 99) ;
+    color: white;
+    border-radius: 3px;
+    width: 290px;
+    height: 50px;
+    margin-top: 9px;
+}
+.user:hover{
+    border-color: aqua;
+    transition: 0.3s ease; 
+
+}
+.passward:hover{
+   
+    border-color: aqua;
+    transition: 0.3s ease; 
+}
+.user::after{
+    
+}
+
+.rest{
+    background-color: white;
+    border: none;
+    font-size: small;
+    margin-right: 195px;
+
+}
+.rest:hover{
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+.log:hover{
+    color: black;
+    transition: 0.3s ease;
+}
+
